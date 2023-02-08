@@ -1,3 +1,12 @@
 .container{
     height: 400px;
 }
+.btn{
+    background-color:#ddf4ff;
+    color: #0969da;
+    margin: 0 0.125em 0.333em 0;
+}
+.btn:hover{
+    background-color: #0969da;
+    color: white;
+}
