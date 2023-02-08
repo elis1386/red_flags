@@ -26,7 +26,10 @@ export class MainScreenComponent implements OnInit {
   }
 
   showSymptom(symptom: string) {
-    this.selectedSymptoms += symptom + ", " ;
+    this.selectedSymptoms += symptom + " " ;
     console.log('click');
+  }
+  clearInpiut(){
+    this.selectedSymptoms = ''
   }
 }
